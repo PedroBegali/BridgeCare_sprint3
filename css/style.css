@@ -194,7 +194,6 @@ main {
 }
 .button:hover {
   background-color: var(--cor-destaque_textos);
-  border-color:;
 }
 
 .rodape {
