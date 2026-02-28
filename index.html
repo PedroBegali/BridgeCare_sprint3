@@ -1,68 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BridgeCare - Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/extraSmall.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/extraLarge.css">
-    <link rel="icon" href="iconFinalBridge_g151_miniini.png" type="image/png">
-</head>
-<body>
-    <header class="cabecalho">
-        <div class="logo__container"> <a href="index.html"><h1>Bridge<span>Care</span></h1></a></div>
-        <nav class="menu__navegacao">
-            <a href="quem_somos.html">Quem somos</a>
-            <a href="sobre_o_projeto.html">Sobre o projeto</a>
-            <a href="jogoNumeroSecreto.html">Mini jogos</a>
-            <a href="FAQ.html">FAQ</a>
-            <a href="contato.html">Contato</a>
-        </nav>
-        <a class="cabecalho__botao" href="#">Conecte-se</a>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/extraSmall.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/extraLarge.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header__menu">
+        <a href="quem_somos.html">Quem somos</a>
+        <a href="sobre_o_projeto.html">Sobre o projeto</a>
+        <a href="jogoNumeroSecreto.html">Mini jogos</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <a class="header__logo" href="index.html"><h1>BridgeCare</h1></a>
+      <a class="header__botao" href="#"
+        ><img src="img/login_icon.png" alt="Ícone de login" />Conecte-se</a
+      >
     </header>
 
     <main>
-        <section class="apresentacao">
+      <section class="apresentacao">
+        <div class="apresentacao__texto">
+          <h1>
+            Conectando
+            <span class="apresentacao__texto__branco">Cuidado e</span> Inovando
+          </h1>
+          <p>
+            Transformamos a experiência de cuidados de saúde através de soluções
+            inovadoras que conectam pacientes, médicos e instituições de forma
+            inteligente.
+          </p>
+          <a href="sobre_o_projeto.html"><b>Saiba mais!</b></a>
+        </div>
+        <img
+          class="apresentacao__imagem"
+          src="img/criancaVoluntaria.png"
+          alt="Dentista finalizando atendimento com uma criança e ambas estão fazendo sinal de positivo"
+        />
+      </section>
 
-            <div class="apresentacao__texto">
-                <h1>Conectando <span class="apresentacao__texto__laranja">Cuidado e</span> <span class="apresentacao__texto__ciano"> Inovando</span></h1>
-                <p>Transformamos a experiência de cuidados de saúde através de soluções inovadoras que conectam pacientes, médicos e instituições de forma inteligente.</p>
-                <a href="sobre_o_projeto.html">Saiba mais!</a>
-            </div>
-            <img class="apresentacao__imagem" src="img/criancaVoluntaria.png" alt="Dentista finalizando atendimento com uma criança e ambas estão fazendo sinal de positivo">
-        </section>
-    
-        <section class="interacoes">
-            <span>
-                <h2>Tudo que você precisa em um só lugar</h2>
-                <p>Soluções completas e integradas para revolucionar a gestão de saúde</p>
-            </span>
-            <nav class="interacoes__cards">
-                <div class="quadros">
-                    <span class="icones">🗓️</span>
-                    <h3>Agendamento Fácil</h3>
-                    <a href="contato.html" class="button">Quero saiber  mais!</a>
-                </div>
-                <div class="quadros">
-                    <span class="icones">🗓️</span>
-                    <h3>Agendamento Fácil</h3>
-                    <a href="contato.html" class="button">Quero saiber  mais!</a>
-                </div>
-                <div class="quadros">
-                    <span class="icones">🗓️</span>
-                    <h3>Agendamento Fácil</h3>
-                    <a href="contato.html" class="button">Quero saiber  mais!</a>
-                </div>
-            </nav>
-        </section>
+      <section class="interacoes">
+        <span>
+          <h2>Tudo que você precisa em um só lugar</h2>
+          <p>
+            Soluções completas e integradas para revolucionar a gestão de saúde
+          </p>
+        </span>
+        <nav class="interacoes__cards">
+          <div class="quadros">
+            <span class="icones">🗓️</span>
+            <h3>Agendamento Fácil</h3>
+            <a href="contato.html" class="button">Quero saiber mais!</a>
+          </div>
+          <div class="quadros">
+            <span class="icones">🗓️</span>
+            <h3>Agendamento Fácil</h3>
+            <a href="contato.html" class="button">Quero saiber mais!</a>
+          </div>
+          <div class="quadros">
+            <span class="icones">🗓️</span>
+            <h3>Agendamento Fácil</h3>
+            <a href="contato.html" class="button">Quero saiber mais!</a>
+          </div>
+        </nav>
+      </section>
     </main>
 
-    <footer>
-        Challenge Turma do bem - Desenvolvido por Pedro B. e Lucas D. (1TDSPA)
+    <footer class="rodape">
+      <div class="rodape__container">
+        <div class="rodape__vertical">
+          <h3>BridgeCare</h3>
+          <p>Challange Turma do bem.</p>
+        </div>
+
+        <div class="rodape__vertical">
+          <h4>Links Úteis</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="app.js">Serviços</a></li>
+            <li><a href="sobre_o_projeto.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="rodape__vertical">
+          <h4>Siga-nos</h4>
+          <div class="social-links">
+            <a href="https://github.com/PedroBegali"> <img class="icon" src="img/github_icon.png" alt="Github icone">Github Pedro B.</a>
+            <a href="https://github.com/ldudena"><img class="icon" src="img/github_icon.png" alt="Github icone">Github Lucas D.</a>
+            <a href="https://www.linkedin.com/in/   pedro-begalli-604208351/"
+              ><img class="icon" src="img/linkedIn_icon.png" alt="LinkedIn icone">LinkedIn Pedro B.</a
+            >
+            <a
+              href="https://www.linkedin.com/in/   lucas-de-souza-dudena-079646382?utm_source=share&  utm_campaign=share_via&utm_content=profile&   utm_medium=ios_app "
+              ><img class="icon" src="img/linkedIn_icon.png" alt="LinkedIn icone">LinkedIn Lucas D.</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="rodape__reservado">
+        <p>&copy; 2025 BridgeCare. Todos os direitos reservados.</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
