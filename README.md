@@ -12,7 +12,7 @@ Nesta **Sprint**, focamos na consolidação da nossa identidade visual e no refi
 
 ---
 
-## 🚀 Evolução: Sprint 1 vs. Sprint 2
+## 🚀 Evolução: Sprint 2 vs. Sprint 3
 Demos um salto considerável nesta etapa, saindo de um MVP inicial para uma estrutura mais robusta:
 * **Identidade Visual:** Criação do nome **BridgeCare** e desenvolvimento da logo oficial, já integrada ao site de apresentação.
 * **Refinamento de Código:** O foco principal desta sprint foi a melhoria da qualidade do código e a estilização avançada (CSS), buscando um design que transmita confiança e profissionalismo.
