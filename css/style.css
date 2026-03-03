@@ -100,7 +100,8 @@ main {
   color: var(--cor-destaque_textos);
   margin: 0 0 15px 0;
   font-weight: 700;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   line-height: 1.2;
 }
 .apresentacao__texto__branco {
@@ -111,7 +112,8 @@ main {
   line-height: 1.6;
   color: var(--cor-textos);
   padding-bottom: 50px;
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .apresentacao__texto a {
@@ -302,19 +304,20 @@ main {
   justify-content: space-between;
   gap: 50px;
   padding: 60px 10%;
+  margin-top: 120px;
 }
-.sobre_projeto_introducao{
+.sobre_projeto_introducao {
   background-color: var(--cor-body);
   color: var(--cor-secundaria);
 }
-.desenvolvimento{
+.desenvolvimento {
   background-image: linear-gradient(
     to bottom,
     var(--cor-apresentacao),
     var(--cor-destaque)
   );
 }
-.conteudo-texto h1{
+.conteudo-texto h1 {
   color: var(--cor-primaria);
 }
 .sobre_projeto h1 {
@@ -332,11 +335,11 @@ main {
 
 .imagem-ong,
 .roadMap {
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   height: auto;
   border-radius: 20px;
   border: 2px solid #93e1ed;
-
   box-shadow: 12px 12px 0px rgba(147, 225, 237, 0.2);
 }
 .sobre_projeto p,
